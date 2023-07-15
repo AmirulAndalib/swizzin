@@ -110,7 +110,7 @@ function deluge_version_info() {
             pythonver=python3
             pythonmajor=$(get_candidate_version python3 | cut -d. -f1-2)
             python=python3
-            deluge_git_branch=2.0.x
+            deluge_git_branch=develop
             ;;
         master)
             cryptography=openssl
